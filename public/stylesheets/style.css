@@ -1,8 +1,152 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ body {
+  color: #3b5f40;
 }
 
-a {
-  color: #00B7FF;
+/* Hero banner */
+.banner.row, .banner .row, .banner .col {
+  margin: 0;
+  padding: 0;
+}
+.banner img {
+  object-fit: cover;
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .banner.row {
+    height: 600px;
+  }
+  .banner .row {
+    height: 300px;
+  }
+  .banner-image-left {
+    height: 600px;
+  }
+  .banner-image-right {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .banner-image-left {
+    max-height: 360px;
+  }
+  .banner-left {
+    max-height: 360px;
+  }
+  .banner .row {
+    max-height: 230px;
+  }
+  .banner-image-right {
+    max-height: 230px;
+  }
+}
+
+/* Nav bar */
+nav {
+  background-color: rgba(0,0,0,0);
+}
+nav ul a,
+nav .brand-logo {
+  color: #004d40;
+  font-weight: 500;
+  letter-spacing: .1em;
+}
+nav ul a {
+  font-size: 1.2em;
+}
+.brand-logo img {
+  width: auto;
+  height: 64px;
+}
+
+/* Mobile sidenav*/
+.sidenav-trigger {
+  color: #3b5f40;
+}
+
+p {
+  line-height: 2rem;
+}
+
+/* Message section */
+.message {
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+
+.parallax-container {
+  min-height: 400px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+#index-banner {
+  min-height: 420px;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+/* Google map */
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/* Age verification modal */
+.modal {
+  top: 30% !important;
+  max-width: 35em;
+}
+
+.modal-close.red-text {
+  margin-right: 2px !important;
+}
+
+.social-icon {
+  margin-top: 2px !important;
+  margin-right: 5px !important;
+}
+
+.social-button {
+  color: #004d40;
 }
