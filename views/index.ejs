@@ -1,8 +1,156 @@
 <%- include('partials/header') %>
-  <body>
-    <h1>Sup BRO</h1>
-    <p>Welcome to SUP BRO</p>
+<body>
+  <!-- hero section -->
+  <div>
+    <!-- Navigation -->
+    <nav role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo center"><img src="images/logo.png"></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="https://www.n80.ca/menu/menu#/menu">Shop</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+  
+        <ul id="nav-mobile" class="sidenav sidenav-close">
+          <li><a href="https://www.n80.ca/menu/menu#/menu">Shop</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
 
+    <div class="row banner">
+      <div class="col s12 m6 banner-left"><img class="banner-image-left" src="images/backgrounds/n80-hero.png"></div>
+      <div class="col s12 m6">
+        <div class="row"><img class="banner-image-right" src="images/backgrounds/free-delivery.png"></div>
+        <div class="row"><img class="banner-image-right" src="images/backgrounds/side-banner.jpg"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- message -->
+  <div class="container message">
+    <div class="row center">
+      <div class="row">
+        <div class="col s12 center">
+          <h4>Lorem, ipsum.</h4>
+        </div>
+      </div>
+      <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate dolore animi pariatur culpa exercitationem aperiam cumque consectetur ipsum quidem sit?</h5>
+    </div>
+  </div>
+
+  <!-- Featured products -->
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h4>Featured products</h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/products/product1.jpg">
+              <!-- <span class="card-title">Card Title</span> -->
+            </div>
+            <div class="card-content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quaerat qui officiis voluptatem repudiandae minus distinctio commodi? Ab, quod autem?</p>
+            </div>
+            <div class="card-action">
+              <a href="https://www.n80.ca/menu/menu#/product/10141595">View product</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/products/product2.jpg">
+              <!-- <span class="card-title">Card Title</span> -->
+            </div>
+            <div class="card-content">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quam harum perferendis ullam unde iste libero eligendi error, quis ipsam!</p>
+            </div>
+            <div class="card-action">
+              <a href="https://www.n80.ca/menu/menu#/product/10141595">View product</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/products/product3.jpg">
+              <!-- <span class="card-title">Card Title</span> -->
+            </div>
+            <div class="card-content">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet distinctio illum hic eligendi voluptate laborum veritatis culpa tenetur voluptates error?</p>
+            </div>
+            <div class="card-action">
+              <a href="https://www.n80.ca/menu/menu#/product/10141595">View product</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mission statement -->
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti.</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/backgrounds/background3.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <!-- Contact us -->
+  <div class="container" id="contact">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h4>Contact Us</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m8">
+          <div class="map-responsive">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.527451522999!2d-79.29701298449739!3d43.80341767911645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d3f8edec46b9%3A0xf253f8c7cc4759c6!2sNorth%2080%20Cannabis%20Merchants!5e0!3m2!1sen!2sca!4v1620272180283!5m2!1sen!2sca" frameborder="0" style="border:0;" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="row valign-wrapper">
+            <div class="col s2 center">
+              <i class="material-icons">schedule</i>
+            </div>
+            <div class="col s10">
+              <p>
+                Monday - Sunday<br>
+                10a.m. - 8p.m.
+              </p>
+            </div>
+          </div>
+          <div class="row valign-wrapper">
+            <div class="col s2 center">
+              <i class="material-icons">phone</i>
+            </div>
+            <div class="col s10">
+              <p>
+                (416) 293-1118
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
     <%- include('partials/footer') %>
